@@ -28,9 +28,11 @@ div {
     transition: 1s ease;
 }
 
-div:nth-child(1) {margin-left: 100px}
+/* div:nth-child(1) {margin-left: 100px}
 div:nth-child(5) {margin-left: 100px}
-div:nth-child(9) {margin-left: 100px; line-height: 25px}
+div:nth-child(9) {margin-left: 100px; line-height: 25px} */
+
+div:nth-child(9) {line-height: 25px;}
 
 div:nth-child(1) {background-color: #f8de7e;}
 div:nth-child(2) {background-color: #f9a602;}
